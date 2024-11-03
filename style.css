@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: "Ubuntu", sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+      }
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      body{
+        background-image: linear-gradient(to right,#01022d,#000);
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container{
+        background-image: linear-gradient(to right, #01022de5 30%, #0000005e),
+        url(AlFi.webp);
+        width: 90%;
+        height: 640px;
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+      }
+
+      .container:hover{
+        background-image: linear-gradient(to right, #01022de5 30%, transparent),
+        url(AlFi.webp);
+        width: 90%;
+        height: 640px;
+
+      }
+
+        header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+      }
+
+    .logo{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        width: 60%;
+        justify-content: space-evenly;
+    }
+
+      ul a{
+        border-bottom: 2px solid transparent;
+      }
+      ul a:hover{
+        border-bottom: 2px solid white;
+      }
+
+      .content{
+        margin-top: 50px;
+        padding: 30px;
+        color: white;
+        width: 50%;
+      }
+
+      .content h2{
+        font-size: 100px;
+      }
+
+      .content p{
+        letter-spacing: 3px ;
+        width: 350px;
+        padding: 20px 0px;
+      }
+
+      .content button{
+        font-size: 30px;
+        padding: 06px 10px;
+        border-radius: 12px;
+        border: 02px solid transparent;
+      }
+
+      .content button:hover{
+        background: transparent;
+        color: white;
+        border-color: white;
+        cursor: pointer ;
+      }
